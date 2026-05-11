@@ -36,7 +36,7 @@ pub fn main(init: std.process.Init) !void {
     );
 
     mainLoop: while (true) {
-        try common.writeString(" Enter your choice (1-4): ");
+        try common.writeString("\nEnter your choice (1-4): ");
         const choice = try common.readInt() orelse return;
 
         // If the choice is not between 1 and 4, we inform the user and continue the loop to ask for input again.

@@ -1,0 +1,7 @@
+.{
+    .name = .number_guessing_game,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.16.0",
+    .paths = .{""},
+    .fingerprint = 0xd3c35c9dcd17cb32,
+}

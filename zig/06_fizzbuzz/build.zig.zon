@@ -1,0 +1,7 @@
+.{
+    .name = .fizzbuzz,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.16.0",
+    .paths = .{""},
+    .fingerprint = 0xd24635c7d76a538a,
+}

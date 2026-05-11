@@ -1,25 +1,20 @@
 # Zig Examples
 
-To build all the examples, run:
+To run an example, navigate to its folder and run `zig build run`:
 
 ```bash
-zig build
-```
-
-To run a specific example, use:
-
-```bash
-zig run zig-out/bin/<example-name>
+cd <example_name>
+zig build run
 ```
 
 The example names are:
 
-- `hello-world`
-- `calculator`
-- `number-guess`
-- `todo`
-- `palindrome`
-- `fizzbuzz`
+- `01_hello_world`
+- `02_calculator`
+- `03_number_guessing_game`
+- `04_todo_list`
+- `05_palindrome_checker`
+- `06_fizzbuzz`
 
 ---
 
